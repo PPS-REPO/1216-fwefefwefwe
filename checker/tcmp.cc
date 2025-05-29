@@ -4,8 +4,9 @@ using namespace std;
 int main(int argc, char* argv[]) {
     registerTestlibCmd(argc, argv);
 
-    int expected = ans.readInt();
-    int actual = ouf.readInt();  
+    long long expected = ans.readLongLong();
+    long long actual = ouf.readLongLong();
+
     if (!ouf.seekEof()) {
         quitf(_wa, "Participant output has extra content.");
     }
