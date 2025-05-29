@@ -1,29 +1,18 @@
 #include "testlib.h"
- 
 using namespace std;
- 
-int main(int argc, char** argv) {
-    setName("token compare");
+
+int main(int argc, char* argv[]) {
     registerTestlibCmd(argc, argv);
- 
-    int n = 0;
-    string j, p;
- 
-    for (; !ans.seekEof() && !ouf.seekEof(); ) {
-        ++n;
- 
-        ans.readWordTo(j);
-        ouf.readWordTo(p);
-        
-        if (j != p) quitf(_wa, "%d%s words differ - expected: '%s', found: '%s'", n, englishEnding(n).c_str(), compress(j).c_str(), compress(p).c_str());
+
+    int expected = ans.readInt();
+    int actual = ouf.readInt();  
+    if (!ouf.seekEof()) {
+        quitf(_wa, "Participant output has extra content.");
     }
- 
-    if (ans.seekEof() && ouf.seekEof()) {
-        if (n == 1) quitf(_ok, "\"%s\"", compress(j).c_str());
-        else quitf(_ok, "%d tokens", n);
+
+    if (expected != actual) {
+        quitf(_wa, "Wrong answer: expected %d, found %d", expected, actual);
     }
-    else {
-        if (ans.seekEof()) quitf(_wa, "Participant output contains extra tokens");
-        else quitf(_wa, "Unexpected EOF in the participants output");
-    }
+
+    quitf(_ok, "Correct answer: %d", expected);
 }
