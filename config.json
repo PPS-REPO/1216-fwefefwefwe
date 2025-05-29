@@ -69,63 +69,63 @@
             "only_deploy": false
         },
         {
-            "script": "random_py 9 9 9 9",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_py 1 9 1 9",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_py 1 9 1 9 _",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_py 1 9 1 9 __",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9 1 9",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9 1 9",
+            "script": "random_cc 1 9",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 1 1 1",
+            "script": "random_cc 1 10000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9 1 9 _",
+            "script": "random_cc 1 10000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9 1 9 __",
+            "script": "random_cc 1 10000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
