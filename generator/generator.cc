@@ -12,6 +12,6 @@ int main(int argc, char** argv) {
 
     a = rnd.next(al, ar);
 
-    printf("%d %d\n", a);
+    printf("%d\n", a);
     return 0;
 }
