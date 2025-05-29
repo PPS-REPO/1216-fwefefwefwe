@@ -1,8 +1,8 @@
-#include <cstdio>
-
+#include <bits/stdc++.h>
+using namespace std;
 int main() {
-    int a, b;
-    scanf("%d%d", &a, &b);
-    printf("%d", a + b);
+    int a;
+    cin >> a;
+    cout << a*(a+1)/2;
     return 0;
 }
