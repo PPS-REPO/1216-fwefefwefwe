@@ -69,56 +69,56 @@
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 90000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 9000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 900",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 90",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 100",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 9",
+            "script": "random_cc 1 1",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 10000",
+            "script": "random_cc 1 1000000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 10000",
+            "script": "random_cc 1 1000000",
             "subtask_group": "",
             "description": "",
             "is_example": false,
