@@ -1,5 +1,5 @@
 {
-    "problem_title": "알고리즘 강좌 - 시간복잡도 1",
+    "problem_title": "시간 복잡도 계산하기",
     "problem_type": "stdio",
     "checker": "tcmp.cc",
     "checker_language": "cpp11",
